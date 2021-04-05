@@ -1,3 +1,4 @@
 .vs/*
+!/
 dotnet-youtube-data/bin/*
 dotnet-youtube-data/obj/*
