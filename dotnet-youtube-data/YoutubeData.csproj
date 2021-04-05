@@ -5,6 +5,15 @@
     <RootNamespace>YoutubeData</RootNamespace>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <LangVersion>8.0</LangVersion>
+    <Authors>Baraka Ally</Authors>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Description>Package to retrieve youtube videoInfo i.e Video and Audio for different format with their streaming urls by using Youtube VideoId</Description>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageTags>Youtube,YoutubeData,Youtube-api,Youtube-videos,rtsp</PackageTags>
+    <PackageReleaseNotes>Release contain functinality to pull youtube videoInfo</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/barakaally/dotnet-youtube-data/tree/master/dotnet-youtube-data</RepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <RepositoryType>Github</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +23,12 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
