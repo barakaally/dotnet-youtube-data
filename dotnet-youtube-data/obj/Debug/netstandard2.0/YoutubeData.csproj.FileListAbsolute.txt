@@ -1,0 +1,12 @@
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\obj\Debug\netstandard2.0\YoutubeData.AssemblyInfoInputs.cache
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\obj\Debug\netstandard2.0\YoutubeData.AssemblyInfo.cs
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\obj\Debug\netstandard2.0\YoutubeData.csproj.CoreCompileInputs.cache
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\bin\Debug\netstandard2.0\YoutubeData.deps.json
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\bin\Debug\netstandard2.0\YoutubeData.dll
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\bin\Debug\netstandard2.0\YoutubeData.pdb
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\obj\Debug\netstandard2.0\YoutubeData.dll
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\obj\Debug\netstandard2.0\YoutubeData.pdb
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\bin\Debug\netstandard2.0\Microsoft.CSharp.dll
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\obj\Debug\netstandard2.0\YoutubeData.csproj.CopyComplete
+C:\Users\ellipsis\Desktop\projects\dotnet-youtube-data\dotnet-youtube-data\obj\Debug\netstandard2.0\YoutubeData.csprojAssemblyReference.cache
