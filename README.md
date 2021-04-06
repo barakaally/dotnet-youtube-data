@@ -6,17 +6,27 @@ Package help to retrieve Youtube video and audio Info in various format and thei
 ```Youtube youtube=new Youtube();```;
 ## Now use GetVideoInfo method to retrive video info,
 ### There are two ways of using it :-
-1. async /await 
+1. asynchronous (async /await) 
+2. sychronous
 2. callback function
 
 ## How to use GetVideoInfo with async/await
 ### method must be wrapped inside async Task 
 ``` 
-Response response=await youtube.GetVideoInfo('videoId') 
+Response response=await youtube.GetVideoInfoAsync('videoId') 
        if(response){
          Console.Writeline(response.Data);
        }
 ```
+
+## How to use GetVideoInfo sychronous
+``` 
+Response response=youtube.GetVideoInfo('videoId') 
+       if(response){
+         Console.Writeline(response.Data);
+       }
+```
+
 ## How to use GetVideoInfo with callback function
 
 ``` 

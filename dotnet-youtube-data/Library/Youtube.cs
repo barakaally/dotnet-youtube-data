@@ -16,9 +16,21 @@ namespace YoutubeData
           <param name="videoId"></param>
           <returns><c>Response</c> </returns>
          */
-        public async Task<Response> GetVideoInfo(string videoId)
+        public async Task<Response> GetVideoInfoAsync(string videoId)
         {
             return await new YoutubeApi().FetchInfo(videoId);
+
+        }
+        /**
+          <summary>
+          Sychronous getVideoInfo by using  VIDEOID e.g 50jyn6_rLFA,
+          </summary>
+          <param name="videoId"></param>
+          <returns><c>Response</c> </returns>
+         */
+        public Response GetVideoInfo(string videoId)
+        {
+            return  new YoutubeApi().FetchInfo(videoId).Result;
 
         }
         /**

@@ -9,15 +9,20 @@
     <NeutralLanguage>en</NeutralLanguage>
     <Description>Package to retrieve youtube videoInfo i.e Video and Audio for different format with their streaming urls by using Youtube VideoId</Description>
     <PackageLicenseExpression></PackageLicenseExpression>
-    <PackageTags>Youtube,YoutubeData,Youtube-api,Youtube-videos,rtsp</PackageTags>
+    <PackageTags>Youtube,YoutubeData,Dotnet-Youtube-Data,Youtube-api,Youtube-videos,rtsp</PackageTags>
     <PackageReleaseNotes>Release contain functinality to pull youtube videoInfo</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/barakaally/dotnet-youtube-data/tree/master/dotnet-youtube-data</RepositoryUrl>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <RepositoryType>Github</RepositoryType>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
